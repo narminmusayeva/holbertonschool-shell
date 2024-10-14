@@ -1,1 +1,2 @@
-Basics Redame.md
+#!/bin/bash
+pwd
