@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -rf /tmp/*.html rm -rf /tmp/test_html mkdir /tmp/test_html 
+rm -rf /tmp/*.html rm -rf /tmp/test_html touch /tmp/test_html cp -u /tmp/test_html/*.html
