@@ -1,2 +1,2 @@
 #!/bin/bash
-for file in [A-Z]*; do if [ -e "$file" ]; then mv "$file" /tmp/u/ done done
+for file in [A-Z]* do if [ -e "$file" ] then mv "$file" /tmp/u/ done done
