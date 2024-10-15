@@ -1,2 +1,2 @@
 #!/bin/bash
-for file in [A-Z]* do if [ -e "$file" ] then mv "$file" /tmp/u/ done done
+rm -rf /tmp/u /tmp/test_mv mkdir /tmp/test_mv /tmp/u  touch /tmp/test_mv/Best /tmp/test_mv/School /tmp/test_mv/isSoCool mv /tmp/test_mv/[[:upper:]]* /tmp/u
