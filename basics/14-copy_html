@@ -1,2 +1,2 @@
 #!/bin/bash
-for file in *.html do if [ ! -e "../$file" ] then cp "$file" "../" elif [ "$file" -nt "../$file" ] then cp "$file" "../" fi done
+rm -rf /tmp/*.html rm -rf /tmp/test_html mkdir /tmp/test_html 
