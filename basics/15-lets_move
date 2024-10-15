@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -rf /tmp/u /tmp/test_mv mkdir /tmp/test_mv /tmp/u  touch /tmp/test_mv/Best /tmp/test_mv/School /tmp/test_mv/isSoCool mv /tmp/test_mv/[[:upper:]]* /tmp/u
+mv [[:upper:]]* /tmp/u
